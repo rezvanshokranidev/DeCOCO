@@ -4,4 +4,3 @@ train/erc-training/dailydialog/*.pkl
 train/erc-training/emorynlp/*.pkl
 train/erc-training/iemocap/*.pkl
 train/erc-training/meld/*.pkl
-train/test.py
