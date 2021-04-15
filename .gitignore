@@ -1,2 +1,6 @@
 featureextraction/comet/data/atomic/processed/generation/categories_oEffect#oReact#oWant#xAttr#xEffect#xIntent#xNeed#xReact#xWant-maxe1_17-maxe2_35-maxr_1.pickle
 featureextraction/comet/pretrained_models/atomic_pretrained_model.pickle
+train/erc-training/dailydialog/*.pkl
+train/erc-training/emorynlp/*.pkl
+train/erc-training/iemocap/*.pkl
+train/erc-training/meld/*.pkl
