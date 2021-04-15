@@ -1,0 +1,2 @@
+18.5	18.5	Namespace(active_listener=True, attention='general2', batch_size=16, class_weight=False, cuda=False, dropout=0.25, epochs=1, l2=0.0003, lr=0.0001, no_cuda=False, norm=3, recurrent_dropout=0.1, seed=100)
+12.63	12.63	Namespace(active_listener=False, attention='general2', batch_size=16, class_weight=False, cuda=False, dropout=0.25, epochs=1, l2=0.0003, lr=0.0001, no_cuda=False, norm=3, recurrent_dropout=0.1, seed=100)
