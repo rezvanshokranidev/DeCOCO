@@ -20,4 +20,23 @@ To set up project go through the following stepd:
   6. numpy                     1.19.5
   7. notebook                  6.3.0
   8. ipython                   7.21.0
-- 
+- Training, validation, testing, and evaluation of each dataset, have be done by the followin steps:
+  - python train_iemocap.py
+  - python train_meld.py
+  - python train_dailydialog.py
+  - python train_emorynlp.py
+- You can change the default value of hyperparameter and argument. There are different hyperparameters and argumens you can change by the following stepa:
+  - no-cuda: Run model on GPU or CPU
+  - lr: Learning rate
+  - l2: L2 regularization weight
+  - recurrent_dropout: recurrent_dropout of GRU
+  - dropout: Dropout rate for hidden layer
+  - batch-size
+  - epochs
+  - class-weight: Use class weight form imbalanced dataset
+  - active-listener: This is Monologue and Dialogue
+  - attention: Attention type in context GRU
+  - seed
+  - norm: normalization strategy
+- You can pass the value to each dataset like this: python train_iemocap.py --no-cuda --epochs=50 --class-weight --active-listener
+- The result will be saved in train/logs
