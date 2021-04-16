@@ -204,7 +204,7 @@ if __name__ == '__main__':
     optimizer = optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.l2)
 
     dir = path.cwd()
-    lf = open(dir / 'train/logs/cosmic_emory_emotion_logs.txt', 'a')
+    lf = open(dir / 'train/logs/decoco_emory_emotion_logs.txt', 'a')
 
 
     train_loader, valid_loader, test_loader = get_EmoryNLP_loaders(batch_size=batch_size,
@@ -247,7 +247,7 @@ if __name__ == '__main__':
     print('F1@Best Valid F1: {}'.format(scores_val_f1))
 
 
-    rf = open(dir / 'train/results/cosmic_emorynlp_emotion_results.txt', 'a')
+    rf = open(dir / 'train/results/decoco_emorynlp_emotion_results.txt', 'a')
 
 
     rf.write('\t'.join(scores) + '\t' + str(args) + '\n')
