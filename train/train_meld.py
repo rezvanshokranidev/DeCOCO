@@ -257,7 +257,7 @@ if __name__ == '__main__':
                            weight_decay=args.l2)
 
     dir = path.cwd()
-    lf = open(dir / 'train/logs/cosmic_meld_emotion_logs.txt', 'a')
+    lf = open(dir / 'train/logs/decoco_meld_emotion_logs.txt', 'a')
 
     train_loader, valid_loader, test_loader = get_MELD_loaders(
         batch_size=batch_size, num_workers=0)
@@ -300,7 +300,7 @@ if __name__ == '__main__':
     print('@Best Valid Loss: {}'.format(score1))
     print('@Best Valid F1: {}'.format(score2))
 
-    rf = open(dir / 'train/results/cosmic_meld_emotion_results.txt', 'a')
+    rf = open(dir / 'train/results/decoco_meld_emotion_results.txt', 'a')
 
     rf.write('\t'.join(scores) + '\t' + str(args) + '\n')
     rf.close()
