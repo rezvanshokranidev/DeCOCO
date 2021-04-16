@@ -10,3 +10,14 @@ To set up project go through the following stepd:
   4. Load your pretrained model: conv-emotion\COSMIC\feature-extraction\roberta_feature_extract_iemocap.py
   5. Clone COMET project from [here](https://github.com/atcbosselut/comet-commonsense)
   6. Download pretrained atomic model from [here](https://drive.google.com/file/d/1vNi4TViLKX_V_wGVXfhpvKimqMjhGBNX/view?usp=sharing) to extract common-sense features.
+- Keep the result of prior step in train/erc-training
+- To run the project, install prerequisites
+  1. python                    3.8.8
+  2. torch                     1.8.1
+  3. scikit-learn              0.24.1
+  4. plotly                    4.14.3
+  5. pandas                    1.2.3
+  6. numpy                     1.19.5
+  7. notebook                  6.3.0
+  8. ipython                   7.21.0
+- 
