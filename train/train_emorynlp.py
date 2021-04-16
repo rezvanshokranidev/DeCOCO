@@ -123,7 +123,7 @@ if __name__ == '__main__':
                         help='recurrent_dropout rate')
     parser.add_argument('--dropout', type=float, default=0.5, metavar='dropout', help='dropout rate')
     parser.add_argument('--batch-size', type=int, default=16, metavar='BS', help='batch size')
-    parser.add_argument('--epochs', type=int, default=1, metavar='E', help='number of epochs')
+    parser.add_argument('--epochs', type=int, default=30, metavar='E', help='number of epochs')
     parser.add_argument('--class-weight', action='store_true', default=False, help='use class weights')
     parser.add_argument('--active-listener', action='store_true', default=False, help='active listener')
     parser.add_argument('--attention', default='general2', help='Attention type in context GRU')
