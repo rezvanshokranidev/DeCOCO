@@ -20,6 +20,7 @@ To set up project go through the following stepd:
   6. numpy                     1.19.5
   7. notebook                  6.3.0
   8. ipython                   7.21.0
+  9. tqdm                      4.63.0
 - Training, validation, testing, and evaluation of each dataset, have be done by the followin steps:
   - python train_iemocap.py
   - python train_meld.py
